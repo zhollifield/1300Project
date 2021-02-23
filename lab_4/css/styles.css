@@ -1,0 +1,68 @@
+body {
+    background-color: tan;
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: tan;
+}
+
+#container {
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+header {
+    font-size: 60px;
+    text-align: center;
+    color: tan;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-size: 22px;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: tan;
+    text-decoration: none;
+}
+
+main {
+    background-color: tan;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 75%;
+    margin: auto;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+    background-color: cyan;
+}
