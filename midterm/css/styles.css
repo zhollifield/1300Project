@@ -1,0 +1,68 @@
+body {
+    background-color: darkslategray;
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: steelblue;
+}
+
+#container {
+    background-color: lavender;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    color: darkslategray;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-size: 22px;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: steelblue;
+    text-decoration: none;
+}
+
+main {
+    background-color: steelblue;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 55%;
+    margin: auto;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+    background-color: indianred;
+}
