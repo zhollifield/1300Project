@@ -8,4 +8,5 @@
     <li><a href="lab_4/index.html" target="_blank">Lab 4 - Introduction to CSS</a></li>
     <li><a href="midterm/index.html" target="_blank">Midterm Project</a></li>
     <li><a href="lab_5/index.html" target="_blank">Lab 5 - 3D Printing Central</a></li>
+    <li><a href="lab_6/index.html" target="_blank">Lab 6 - 3D Printing Central Part 2</a></li>
 </ul>
