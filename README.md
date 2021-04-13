@@ -10,4 +10,5 @@
     <li><a href="lab_5/index.html" target="_blank">Lab 5 - 3D Printing Central</a></li>
     <li><a href="lab_6/index.html" target="_blank">Lab 6 - 3D Printing Central Part 2</a></li>
     <li><a href="lab_7/index.html" target="_blank">Lab 7 - Audio, Video, and Table</a></li>
+    <li><a href="lab_8/index.html" target="_blank">Lab 8 - jQuery and JS</a></li>
 </ul>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>3D Printer Pics</title>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/zenscroll-min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script>
+    $(function () {
+        $('#menu').slicknav();
+        $('.slider').bxSlider();
+        $( "#accordion" ).accordion();
+        $( "#tabs" ).tabs();
+    });
+    </script>
+</head>
+
+<body id="top">
+	<div id="container">
+		<header>
+			<h1>3D Printer Pics</h1>
+		</header>
+
+		<nav>
+			<ul id="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#main">Facts</a></li>
+				<li><a href="#portfolio">Printed Items</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section>
+                <h2 id="main">3D Printer Facts</h2>
+				<article>
+                    <div class="slider">
+                        <div><img src="images/pic1.jpg" alt="Picture 1"></div>
+                        <div><img src="images/pic2.jpg" alt="Picture 2">.</div>
+                    </div>
+					<p></p>
+                    <div id="accordion">
+                    <h3>Fact 1</h3>
+                        <div>
+                            <p>
+                                Surprisingly affordable for beginner machine kits.
+                        </div>
+                    <h3>Fact 2</h3>
+                    <div>
+                        <p>
+                            Does not emit any harmful gasses into the air.
+                        </p>
+                    </div>
+                    <h3>Fact 3</h3>
+                    <div>
+                        <p>
+                            Endless possibilites on what you can design and print!
+                        </p>
+                    </div>
+                    <h3>Fact 4</h3>
+                    <div>
+                         <p>
+                            Printing supplies are cheap, affordable, and widely available.
+                         </p>
+                    </div>
+                    </div>
+                    <a class="button" href="#top">Back To the Top</a>
+				</article>
+					
+				<div class="feature">
+					<h3 id="portfolio">3D Printed Items</h3>
+					<div class="projects">
+                        <div id="tabs">
+                            <ul>
+                                <li><a href="#tabs-1">Print 1</a></li>
+                                <li><a href="#tabs-2">Print 2</a></li>
+                                <li><a href="#tabs-3">Print 3</a></li>
+                            </ul>
+                            <div id="tabs-1">
+                                <img src="images/print1.png" alt="Printed Item 1">
+                            </div>
+                            <div id="tabs-2">
+                                <img src="images/print2.jpg" alt="Printed Item 2">
+                            </div>
+                            <div id="tabs-3">
+                                <img src="images/print3.jpg" alt="Printed Item 3">
+                            </div>
+                        </div>
+					</div>
+                    <a class="button" href="#top">Back To the Top</a>
+				</div>
+				<aside id="contact">
+					<h3>Contact Information</h3>
+					<h4>Zach Hollifield</h4>
+					<ul>
+						<li><a href="zlhollifield@my.chattanoogastate.ed">Email Me</a></li>
+						<li><a href="423-123-4567">Call Me</a></li>
+					</ul>
+				</aside>
+			</section>
+		</main>
+		<footer>&copy; Lab 8 - JQuery and JS</footer>
+	</div>
+</body>
+
+</html>
