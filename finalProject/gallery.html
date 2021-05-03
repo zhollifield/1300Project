@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Final Project - Multi-Color 3D Printing</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    slideWidth: 900,
+                    minSlides: 2,
+                    maxSlides: 3,
+                    moveSlides: 1,
+                    pager: false,
+                    auto: true
+                });
+            });
+        </script>
+        
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <h1 class="rainbow-text">Multi-Color 3D Printing</h1>
+        </header>
+        <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="troubleshooting.html">Troubleshooting</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+        <main>
+            <section2>
+                <h2>Multi-Color Printing Photos</h2>
+                <p>These photos show what is truly possible with multi-color 3D printing.</p>
+                <div class="slider">
+                    <div><img src="images/multicolorbrain.jpg" alt="Picture 1"></div>
+                    <div><img src="images/multicolorsphinx.png" alt="Picture 2">.</div>
+                    <div><img src="images/multiprint.jpg" alt="Picture 3">.</div>
+                    <div><img src="images/penguin.jpg" alt="Picture 4">.</div>
+                    <div><img src="images/boo.jpg" alt="Picture 5">.</div>
+                    <div><img src="images/candy.jpg" alt="Picture 6">.</div>
+                </div>
+            </section2>
+        </main>
+        
+        <footer>
+            <p>&copy; 2021 Final Project - Multi-Color 3D Printing - <a href="https://www.mosaicmfg.com/" target="_blank">More Information</a></p>
+        </footer>
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Final Project - Multi-Color 3D Printing</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <h1 class="rainbow-text">Multi-Color 3D Printing</h1>
+        </header>
+        <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="troubleshooting.html">Troubleshooting</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+        <main>
+            <section>
+                <h2>Troubleshooting</h2>
+                <p>This section will be dedicated to identifying issues and giving tips to help troubleshoot them.</p>
+                
+                <p>The most common issue when multi-color/multi-material printing is the temperature you are printing at. I have outlined a table that will give you a general range of the temperatures at which each type of filament will need to be printed. The temperature ranges will vary slightly with different filament manufacturers, but the table should give you a rough idea of where to start.</p>
+                
+                <p>If you notice a popping noise coming from your extruder that sounds like the audio below, you may have a temperature issue. This means that either the extruder is not fully engaged into the plastic filament, or your temperature is not high enough to melt the amount of filament you are pushing into the hotend.</p>
+                
+                <audio controls>
+                    <source src="audio/popping.mp3" type="audio/mp3">
+                </audio>
+            </section>
+            <aside>
+                <table style="width:100%">
+                    <tr>
+                        <th>Materials</th>
+                        <th>Temperature Ranges</th>
+                    </tr>
+                    <tr>
+                        <td>PLA</td>
+                        <td>190&#730;C - 220&#730;C</td>
+                    </tr>
+                    <tr>
+                        <td>ABS</td>
+                        <td>230&#730;C - 240&#730;C</td>
+                    </tr>
+                    <tr>
+                        <td>PETG</td>
+                        <td>230&#730;C - 250&#730;C</td>
+                    </tr>
+                    <tr>
+                        <td>TPU</td>
+                        <td>210&#730;C - 225&#730;C</td>
+                    </tr>
+                </table>
+            </aside>
+        </main>
+        
+        <footer>
+            <p>&copy; 2021 Final Project - Multi-Color 3D Printing - <a href="https://www.mosaicmfg.com/" target="_blank">More Information</a></p>
+        </footer>
+        </div>
+    </body>
+    
+</html>
