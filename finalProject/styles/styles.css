@@ -208,6 +208,11 @@ iframe {
         font-size: 80px;
     }
     
+    nav li {
+        display: inline-block;   
+        background-color: cadetblue;
+    }
+    
     nav li a {
         color: #544738;
         text-decoration: none;
@@ -263,5 +268,4 @@ iframe {
     table, th, td {
         border: 1px solid black;
     }
-
 }
