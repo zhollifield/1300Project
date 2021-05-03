@@ -39,7 +39,6 @@ main {
     }
     
 /* Mobile Styles */
-@media (max-width: 640px) {
 
 header {
     padding: 20px 0;
@@ -76,6 +75,7 @@ main {
     padding: 20px;
     margin: 10px;
     text-align: center;
+    display: flex;
 }
 
 footer {
@@ -93,7 +93,6 @@ div.bx-wrapper {
         height: auto;
 }
 
-}
 
 
 /* Tablet Styles */
