@@ -68,9 +68,6 @@ nav li a {
     text-decoration: none;
 }
 
-nav ul a:hover {
-}
-
 main {
     padding: 20px;
     margin: 10px;
@@ -217,9 +214,5 @@ div.bx-wrapper {
     table, th, td {
         border: 1px solid black;
     }
-    
-    rollover {
-        height: 750px;
-        width; 750px;
-    }
+
 }
