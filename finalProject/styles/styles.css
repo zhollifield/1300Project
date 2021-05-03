@@ -29,19 +29,23 @@ nav {
 
 header h1 {
         font-size: 80px;
-        text-shadow: 2px 2px 2px white;
+        text-shadow: 2px 2px 2px lightgray;
 }
 
 .rainbow-text {
         background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
         color: transparent;
 }
+
+footer {
+    text-align: center;
+}
     
 /* Mobile Styles */
 
 @media only screen and (max-width: 600px) { 
     
-.container {
+body {
     width: 100%;
     height: 100%;
     background-color: #42455a;
@@ -49,6 +53,7 @@ header h1 {
 }
     
 header {
+    background-image: url(../images/header.jpg);
     padding: 20px 0;
     text-align: center;
 }
@@ -120,7 +125,7 @@ iframe {
 /* Tablet Styles */
 @media only screen and (min-width: 768px) {
 
-    .container {
+    body {
     width: 100%;
     height: 100%;
     background-color: #42455a;
@@ -128,7 +133,6 @@ iframe {
 }
     
     header {
-        background-image: url(../images/colorspools.jpg);
         background-size: cover;
         background-position: center center;
         padding: 60px 0;
@@ -188,9 +192,9 @@ iframe {
 
 @media only screen and (min-width: 1024px) {
     
-    .container {
-    width: 100%;
-    height: 100%;
+    body {
+    width: auto;
+    height: auto;
     background-color: #42455a;
     font-family: 'Quicksand', sans-serif;
 }
@@ -233,13 +237,21 @@ iframe {
     }
     
     p, aside, aside2 {
-        font-size: 1.25em;
+        font-size: 1.5em;
     }
     
     section {
         width: 100%;
         height: 100%;
         text-align: center;
+        font-size: 1.25em;
+    }
+    
+    h3, h4 {
+        font-size: 2em;
+    }
+    
+    ol {
         font-size: 1.25em;
     }
     
